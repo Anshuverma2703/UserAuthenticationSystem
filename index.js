@@ -8,7 +8,7 @@ const User = require("./model/user");
 const bcrypt = require('bcrypt');
 
 
-const dbURL = "mongodb+srv://Anshu:Anshuverma2703@cluster1.falp91d.mongodb.net/test"
+const dbURL = "mongodb+srv://Anshu:31049U@fwfwfo3023@cluster1.falp91d.mongodb.net/test"
 mongoose.connect(dbURL, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(result => app.listen(3000))
     .catch(err => console.log(err));
